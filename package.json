@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "prisma": "^5.0.0",
-    "@prisma/client": "^5.0.0"，
+    "@prisma/client": "^5.0.0",
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "latest",
     "@radix-ui/react-alert-dialog": "latest",
