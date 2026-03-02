@@ -233,7 +233,23 @@ export function Dashboard() {
             <Progress value={60} className="mt-2" />
           </CardContent>
         </Card>
+
+          {/* 新增：本月新增客户卡片 */}
+        <Card className="hover:shadow-lg transition-shadow">
+          <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+            <CardTitle className="text-sm font-medium">本月新增客户</CardTitle>
+            <Users className="h-4 w-4 text-muted-foreground" />
+          </CardHeader>
+          <CardContent>
+            <div className="text-2xl font-bold">24</div>
+            <p className="text-xs text-muted-foreground">+8.5% from last month</p>
+            <Progress value={80} className="mt-2" />
+          </CardContent>
+        </Card>
+        
       </div>
+
+      
 
       {/* Activity Summary Cards */}
       <div className="grid gap-4 md:grid-cols-4">
