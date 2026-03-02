@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "prisma generate && next build",  // 仅新增 prisma generate
+    "build": "prisma generate && next build",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "postinstall": "prisma generate"  // 新增这一行
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "prisma": "^5.0.0",
